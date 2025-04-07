@@ -888,7 +888,9 @@ Banner Style
   right: 0;
   top: 100px;
   width: 819px;
-  height: 674px;
+  height: 600px; /* reduced height */
+  border-radius: 20px; /* added radius */
+  overflow: hidden;
 }
 
 .main-banner .item {
